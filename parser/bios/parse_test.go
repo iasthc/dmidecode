@@ -3,9 +3,9 @@ package bios_test
 import (
 	"testing"
 
+	"github.com/iasthc/dmidecode/parser/bios"
+	"github.com/iasthc/dmidecode/smbios"
 	"github.com/stretchr/testify/assert"
-	"github.com/yumaojun03/dmidecode/parser/bios"
-	"github.com/yumaojun03/dmidecode/smbios"
 )
 
 var (

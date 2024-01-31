@@ -1,32 +1,33 @@
 # dmidecode
-![Build and Test](https://github.com/yumaojun03/dmidecode/workflows/Build%20and%20Test/badge.svg)
-[![codecov](https://codecov.io/gh/yumaojun03/dmidecode/branch/master/graph/badge.svg)](https://codecov.io/gh/yumaojun03/dmidecode)
-[![Go Report Card](https://goreportcard.com/badge/github.com/yumaojun03/dmidecode)](https://goreportcard.com/report/github.com/yumaojun03/dmidecode)
-[![Release](https://img.shields.io/github/release/yumaojun03/dmidecode.svg?style=flat-square)](https://github.com/yumaojun03/dmidecode/releases)
-[![MIT License](https://img.shields.io/github/license/yumaojun03/dmidecode.svg)](https://github.com/yumaojun03/dmidecode/blob/master/LICENSE)
 
-纯Golang实现的dmidecode, 零依赖, 支持Linux, Unix, Windows
+![Build and Test](https://github.com/iasthc/dmidecode/workflows/Build%20and%20Test/badge.svg)
+[![codecov](https://codecov.io/gh/iasthc/dmidecode/branch/master/graph/badge.svg)](https://codecov.io/gh/iasthc/dmidecode)
+[![Go Report Card](https://goreportcard.com/badge/github.com/iasthc/dmidecode)](https://goreportcard.com/report/github.com/iasthc/dmidecode)
+[![Release](https://img.shields.io/github/release/iasthc/dmidecode.svg?style=flat-square)](https://github.com/iasthc/dmidecode/releases)
+[![MIT License](https://img.shields.io/github/license/iasthc/dmidecode.svg)](https://github.com/iasthc/dmidecode/blob/master/LICENSE)
 
-功能和命令行的dmidecode工具一样, 使用方式参考: [example](./example/main.go)
+纯 Golang 实现的 dmidecode, 零依赖, 支持 Linux, Unix, Windows
 
-开发过程相关小博客: [使用Golang重新实现dmidecode](https://www.jianshu.com/p/2e7ce2946b6b)
+功能和命令行的 dmidecode 工具一样, 使用方式参考: [example](./example/main.go)
+
+开发过程相关小博客: [使用 Golang 重新实现 dmidecode](https://www.jianshu.com/p/2e7ce2946b6b)
 
 ## 安装方式
 
 ```
-$ go get "github.com/yumaojun03/dmidecode"
+$ go get "github.com/iasthc/dmidecode"
 ```
 
 ## 使用样例
 
-``` go
+```go
 package main
 
 import (
 	"fmt"
 	"os"
 
-	"github.com/yumaojun03/dmidecode"
+	"github.com/iasthc/dmidecode"
 )
 
 func checkError(err error) {
@@ -61,6 +62,7 @@ func main() {
 ```
 
 ## CLI 使用
-``` sh
+
+```sh
 $ go run cmd/main.go -d -t [bios, system, baseboard, chassis, onboard, port, processor, memory, slot]
 ```

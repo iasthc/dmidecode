@@ -3,9 +3,9 @@ package battery_test
 import (
 	"testing"
 
+	"github.com/iasthc/dmidecode/parser/battery"
+	"github.com/iasthc/dmidecode/smbios"
 	"github.com/stretchr/testify/assert"
-	"github.com/yumaojun03/dmidecode/parser/battery"
-	"github.com/yumaojun03/dmidecode/smbios"
 )
 
 var (

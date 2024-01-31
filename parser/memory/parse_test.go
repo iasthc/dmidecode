@@ -3,8 +3,8 @@ package memory_test
 import (
 	"testing"
 
-	"github.com/yumaojun03/dmidecode/parser/memory"
-	"github.com/yumaojun03/dmidecode/smbios"
+	"github.com/iasthc/dmidecode/parser/memory"
+	"github.com/iasthc/dmidecode/smbios"
 
 	"github.com/stretchr/testify/assert"
 )
